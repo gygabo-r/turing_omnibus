@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; width: 100%">
+<head>
+    <meta charset="UTF-8">
+    <title>Wallpaper</title>
+    <script src="wallpaper.js" defer></script>
+</head>
+<body style="height: 100%; width: 100%; margin: 0; display: flex; justify-content: end">
+<div id="content" style="width: 100%; height: 100%">
+
+</div>
+<div style="display: flex; flex-direction: column; max-width: 200px">
+    <label>
+        X
+        <input type="number" id="start_x" value="0">
+    </label>
+    <label>
+        Y <input type="number" id="start_y" value="0">
+    </label>
+    <label>
+        Side <input type="number" id="side" value="16">
+    </label>
+    <button onclick="wallpaper()">Generate</button>
+</div>
+</body>
+</html>
